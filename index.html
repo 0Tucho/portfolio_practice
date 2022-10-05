@@ -4,58 +4,66 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
   <title>Portfolio</title>
 </head>
-<body id="container">
-  <header id="header">
-    <nav id="navbar">
-      <ul>
-        <li><a href="#welcome">About</a></li>
-        <li><a href="#projects">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="welcome" class="section">
-    <div id="title__container">
-      <h1 id="title">Welcome!</h1>
-      <h2 class="subtitle">I'm Tucho a web developer</h2>
-      <h3 class="subtitle">This is my portfolio</h3>
+<body>
+  <main id="container">
+    <header id="header">
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="welcome" class="section">
+      <div id="title__container">
+        <h1 id="title">Welcome!</h1>
+        <h2 class="subtitle">I'm Tucho a web developer</h2>
+        <h3 class="subtitle">This is my portfolio</h3>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div id="projects__cont">
+        <div class="project-tile"><a href="#"><img src="./assets/img/static page.png" alt="static-page" class="projects__img"></a></div>
+        <a class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">MY STATIC PAGE</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+        <div class="project-tile"><a href="#"><img src="./assets/img/dynamic page.png" alt="dynamic-page" class="projects__img"></a></div>
+        <a class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">MY DYNAMIC PAGE</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div id="contact__cont">
+      <h2 id="subtitle">Let's work together</h2>
+      <p id="subtitle__2">How do you want your coffee?</p>
+      <div id="github"><a href="#"><img src="./assets/img/github.png" alt="github-logo" id="github__img"></a></div>
+      </div>
+      </div>
+    </section>
+
+    <div id="sky">
+      <a href="#welcome"><img src="https://popupfilmresidency.org/wp-content/uploads/2019/05/white-down-arrow-png-2.png" alt="back-sky" id="sky__img"></a>
     </div>
-  </section>
-  <section id="projects">
-    <div id="projects__cont">
-      <div class="project-tile"><a href="#"><img src="./styles/static page.png" alt="static-page" class="projects__img"></a></div>
-      <a class="fancy" href="#">
-        <span class="top-key"></span>
-        <span class="text">MY STATIC PAGE</span>
-        <span class="bottom-key-1"></span>
-        <span class="bottom-key-2"></span>
-      </a>
-      <div class="project-tile"><a href="#"><img src="./styles/dynamic page.png" alt="dynamic-page" class="projects__img"></a></div>
-      <a class="fancy" href="#">
-        <span class="top-key"></span>
-        <span class="text">MY DYNAMIC PAGE</span>
-        <span class="bottom-key-1"></span>
-        <span class="bottom-key-2"></span>
-      </a>
-    </div>
-  </section>
-  <section id="contact">
-    <div id="contact__cont">
-    <h2 id="subtitle">Let's work together</h2>
-    <p id="subtitle__2">How do you want your coffee?</p>
-    <div id="github"><a href="#"><img src="./styles/github.png" alt="github-logo" id="github__img"></a></div>
-    </div>
-    </div>
-  </section>
-  <div id="sky">
-    <a href="#welcome"><img src="https://popupfilmresidency.org/wp-content/uploads/2019/05/white-down-arrow-png-2.png" alt="back-sky" id="sky__img"></a>
-  </div>
-  <footer id="footer">
-    <p id="text">This is a proyect made for freecodecamp</p>
-  </footer>
+
+    <footer id="footer">
+      <p id="text">This is a proyect made for freecodecamp</p>
+    </footer>
+  </main>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
 
