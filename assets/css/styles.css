@@ -280,7 +280,19 @@ html{
   margin-bottom: 3rem;
   font-weight: 800;
 }
+#contact__icons{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 10rem;
+  width: 8rem;
+  height: auto;
+}
 #github__img{
+  margin-top: 3rem;
+  max-width: 2rem;
+  height: auto;
+}
+#linkedin-logo{
   margin-top: 3rem;
   max-width: 2rem;
   height: auto;
